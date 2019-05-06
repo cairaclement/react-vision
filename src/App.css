@@ -1,0 +1,36 @@
+.descriptionTagBox{
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(1px, 15px);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.categories, .description, .color, .faces{
+  display: flex;
+}
+.data_categories, .data_description, .data_color, .data_faces{
+  width: 400px;
+}
+
+.title{
+  width: 100px !important;
+  display: flex;
+  align-items: center;
+}
+.data_categories{
+  display: flex;
+  flex-direction: column;
+}
+
+.separation{
+  height: 2px;
+  width: 28px;
+  background-color: #bcb9b9;
+  margin: 10px 0;
+}
+.custom_data:first-letter {
+  text-transform: uppercase;
+}
